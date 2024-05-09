@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 30px;
   }
 
   h1 {
@@ -32,10 +32,8 @@ body {
     background-color: white;
   }
 
-/*   p {
-    margin-left: 25px;
-  }
- */
+
+ 
 /* .column {
   width: 100%;
 }
