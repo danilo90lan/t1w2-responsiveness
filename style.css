@@ -3,7 +3,7 @@
 /* default styles for small screens and anything not caught by media*/
 body {
   background-color: rgba(83, 131, 233, 0.801);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
     width: 100px;
     height: 100px;
     background-color: white;
-    border: 5px solid black;
+    border: 5px dotted black;
     border-radius: 20%;
   }
   header {
@@ -28,7 +28,6 @@ body {
   }
 
   h1 {
-    display:inline;
     background-color: white;
   }
 
@@ -47,6 +46,11 @@ body {
       main {
         display: flex;
         flex-direction: row;
+        gap: 1rem;
+      }
+
+      .main_pa {
+        padding-left: 1rem;
       }
 
       header {
